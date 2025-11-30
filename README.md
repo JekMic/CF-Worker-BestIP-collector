@@ -26,6 +26,12 @@
 - **现代化界面**：简洁美观的 Web 界面，支持响应式设计
 - **实时排序**：测速完成后自动按延迟排序，快速找到最优 IP
 
+V2.5版本，添加管理员登录参数，需要到CF worker环境变量里添加 ADMIN_PASSWORD，网页增加Token管理，登陆后可用
+<img width="1339" height="575" alt="图片" src="https://github.com/user-attachments/assets/9edcd160-85ca-4d85-9344-6d3699161300" />
+<img width="1598" height="517" alt="图片" src="https://github.com/user-attachments/assets/e32a4353-6954-40c7-b0d2-01860eace439" />
+<img width="1370" height="674" alt="图片" src="https://github.com/user-attachments/assets/4a727f2d-8eb6-4edb-b9a8-d5fe68fbb2b1" />
+
+
 ## 🚀 快速开始
 
 ### 前置要求
@@ -33,13 +39,6 @@
 - Cloudflare 账户
 - Workers 权限
 - KV 命名空间（用于存储 IP 数据）
-
-V2.5版本，添加管理员登录参数，需要到CF worker环境变量里添加 ADMIN_PASSWORD，网页增加Token管理，登陆后可用
-<img width="1339" height="575" alt="图片" src="https://github.com/user-attachments/assets/9edcd160-85ca-4d85-9344-6d3699161300" />
-<img width="1598" height="517" alt="图片" src="https://github.com/user-attachments/assets/e32a4353-6954-40c7-b0d2-01860eace439" />
-
-
-
 
 ### 部署步骤
 
